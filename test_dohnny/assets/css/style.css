@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Title';
+  src: url(./assets/fonts/Gordita_Medium.otf);
+}
+
+@font-face {
+  font-family: 'SubTitle';
+  src: url(./assets/fonts/Gordita_Regular.otf);
+}
+
+#titulo {
+    font-family: 'Title';
+    font-size: 40px;
+    color: rgb(32, 33, 36);
+    font-weight: 500;
+    width: 70%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+#subtitulo {
+    font-family: 'SubTitle';
+    font-size: 20px;
+    color: rgb(101, 105, 107);
+    width: 70%;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 400;
+    margin: 2rem auto;
+}
+
+#background {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin: 0px auto;
+    background: rgb(245, 245, 245);
+}
+
+#margin {
+    width: 93%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 4rem 0px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.layouts {
+    position: relative;
+    width: 49%;
+    text-align: center;
+    height: 550px;
+    margin: 3rem auto;
+    background: transparent;
+    border-radius: 10px;
+    padding: 2.2rem 1.5rem;
+}
+
+.img {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.text {
+    font-family: 'Title';
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(32, 33, 36);
+    text-align: center;
+    width: 80%;
+    margin: 1.3rem auto 0px;
+}
+
+.picture{
+    width: 100%;
+}
+
